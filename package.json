@@ -1,0 +1,7 @@
+{
+	"name": "@reliverse/csdk",
+	"version": "0.0.0",
+	"description": "@reliverse/csdk is a TypeScript-first Canvas 2D rendering engine. It is a modern, lightweight, and modular 2D rendering engine for the HTML Canvas, built entirely with TypeScript. It provides a flexible and performant way to draw and animate shapes, text, and images across different JavaScript environments, including browsers, Web Workers, and Node.js.",
+	"private": true,
+	"type": "module"
+}

@@ -1,0 +1,23 @@
+{
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.addMissingImports": "never",
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "never",
+		"source.removeUnused": "never"
+	},
+	"eslint.ignoreUntitled": true,
+	"eslint.rules.customizations": [
+		{
+			"rule": "perfectionist/sort-imports",
+			"severity": "off"
+		}
+	],
+	"mdx.server.enable": true,
+	"markdownlint.config": {
+		"MD033": false
+	}
+}
